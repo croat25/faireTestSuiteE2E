@@ -1,0 +1,13 @@
+{
+    "src": "./build/source/Tests/",
+    "browsers": "edge",
+    "skipJsErrors": true,
+    "concurrency": 1,
+    "quarantineMode": {
+        "successThreshold": 1,
+        "attemptLimit": 3
+    },
+    "filter": {
+        "test": ""
+    }
+}
